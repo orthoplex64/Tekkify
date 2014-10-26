@@ -1,0 +1,86 @@
+import mods.mekanism.Infuser;
+import mods.mekanism.Enrichment;
+import mods.mekanism.chemical.Oxidizer;
+
+# Crafting	
+	# Disabled
+	recipes.remove(<Mekanism:CardboardBox>);
+	recipes.remove(<Mekanism:MachineBlock:2>); # Combiner
+	recipes.remove(<Mekanism:MachineBlock:4>); # Digital Miner
+	recipes.remove(<Mekanism:MachineBlock:15>); # Logistical Sorter
+	recipes.remove(<Mekanism:PartTransmitter:0>); # Basic Universal Cable
+	recipes.remove(<Mekanism:PartTransmitter:1>); # Advanced Universal Cable
+	recipes.remove(<Mekanism:PartTransmitter:2>); # Elite Universal Cable
+	recipes.remove(<Mekanism:PartTransmitter:3>); # Ultimate Universal Cable
+	recipes.remove(<Mekanism:PartTransmitter:4>); # Basic Mechanical Pipe
+	recipes.remove(<Mekanism:PartTransmitter:5>); # Advanced Mechanical Pipe
+	recipes.remove(<Mekanism:PartTransmitter:6>); # Elite Mechanical Pipe
+	recipes.remove(<Mekanism:PartTransmitter:7>); # Ultimate Mechanical Pipe
+	recipes.remove(<Mekanism:PartTransmitter:9>); # Logistical Transporter
+	recipes.remove(<Mekanism:PartTransmitter:10>); # Restrictive Transporter
+	recipes.remove(<Mekanism:PartTransmitter:11>); # Diversion Transporter
+	recipes.remove(<Mekanism:ObsidianTNT>);
+	recipes.remove(<Mekanism:WalkieTalkie>);
+	recipes.removeShaped(<minecraft:paper>, [[<Mekanism:Sawdust>, <Mekanism:Sawdust>, <Mekanism:Sawdust>]]);
+	recipes.removeShaped(<minecraft:rail>, [[<ore:ingotOsmium>, null, <ore:ingotOsmium>], [<ore:ingotOsmium>, <ore:stickWood>, <ore:ingotOsmium>], [<ore:ingotOsmium>, null, <ore:ingotOsmium>]]);
+	
+	# Removed for new recipes
+	recipes.remove(<Mekanism:AtomicDisassembler>.anyDamage());
+	recipes.remove(<Mekanism:ElectricBow>.anyDamage());
+	recipes.remove(<Mekanism:FrictionBoots>.anyDamage()); # Free Runners
+	recipes.remove(<Mekanism:Jetpack>.anyDamage());
+	
+	# New recipes
+	recipes.addShaped(<Mekanism:AtomicDisassembler:100>, [[<Mekanism:ReinforcedAlloy>, <Mekanism:EnergyTablet:*>, <Mekanism:ReinforcedAlloy>], [<Mekanism:ReinforcedAlloy>, <Mekanism:TeleportationCore>, <Mekanism:ReinforcedAlloy>], [<Mekanism:ControlCircuit:3>, <ore:ingotRefinedObsidian>, <Mekanism:ControlCircuit:3>]]);
+	recipes.addShaped(<Mekanism:FrictionBoots:100>, [[<Mekanism:ControlCircuit:2>, null, <Mekanism:ControlCircuit:2>], [<Mekanism:ReinforcedAlloy>, null, <Mekanism:ReinforcedAlloy>], [<Mekanism:EnergyTablet:*>, null, <Mekanism:EnergyTablet:*>]]);
+	recipes.addShaped(<Mekanism:ElectricBow:100>, [[null, <Mekanism:ControlCircuit:2>, <minecraft:string>], [<Mekanism:EnergyTablet:*>, null, <minecraft:string>], [null, <Mekanism:ControlCircuit:2>, <minecraft:string>]]);
+	recipes.addShaped(<Mekanism:Jetpack:100>, [[<ore:ingotSteel>, <Mekanism:ControlCircuit:2>, <ore:ingotSteel>], [<Mekanism:ReinforcedAlloy>, <Mekanism:GasTank:*>, <Mekanism:ReinforcedAlloy>], [null, <ore:ingotTin>, null]]);
+	
+# Metallurgic Infuser
+	# Removed for new recipes
+	Infuser.removeRecipe(<Mekanism:EnrichedIron>);
+	Infuser.removeRecipe(<Mekanism:Dust:5>);
+	
+	# New recipes
+	Infuser.addRecipe("CARBON", 20, <minecraft:iron_ingot>, <Mekanism:EnrichedIron>);
+	Infuser.addRecipe("CARBON", 80, <Mekanism:EnrichedIron>, <Mekanism:Dust:5>);
+
+# Enrichment Chamber
+	# Removed for new recipes
+	Enrichment.removeRecipe(<Mekanism:CompressedCarbon>);
+	Enrichment.removeRecipe(<Mekanism:CompressedRedstone>);
+	Enrichment.removeRecipe(<Mekanism:CompressedDiamond>);
+	Enrichment.removeRecipe(<Mekanism:CompressedObsidian>);
+	
+	# New recipes
+	Enrichment.addRecipe(<minecraft:coal> * 6, <Mekanism:CompressedCarbon>);
+	Enrichment.addRecipe(<minecraft:coal:1> * 4, <Mekanism:CompressedCarbon>);
+	Enrichment.addRecipe(<minecraft:redstone> * 6, <Mekanism:CompressedRedstone>);
+	Enrichment.addRecipe(<minecraft:redstone_block>, <Mekanism:CompressedRedstone> * 2);
+	Enrichment.addRecipe(<minecraft:diamond> * 6, <Mekanism:CompressedDiamond>);
+	Enrichment.addRecipe(<Mekanism:Dust:3> * 6, <Mekanism:CompressedObsidian>);
+
+# Chemical Oxidizer
+	# Disabled
+	Oxidizer.removeRecipe(<gas:brine>); # Disable HarvestCraft Salt
+
+
+# Tooltips
+	<Mekanism:CardboardBox>.addTooltip(format.red("Disabled"));
+	<Mekanism:MachineBlock:2>.addTooltip(format.red("Disabled"));
+	<Mekanism:MachineBlock:4>.addTooltip(format.red("Disabled"));
+	<Mekanism:MachineBlock:15>.addTooltip(format.red("Disabled"));
+	<Mekanism:PartTransmitter:0>.addTooltip(format.red("Disabled"));
+	<Mekanism:PartTransmitter:1>.addTooltip(format.red("Disabled"));
+	<Mekanism:PartTransmitter:2>.addTooltip(format.red("Disabled"));
+	<Mekanism:PartTransmitter:3>.addTooltip(format.red("Disabled"));
+	<Mekanism:PartTransmitter:4>.addTooltip(format.red("Disabled"));
+	<Mekanism:PartTransmitter:5>.addTooltip(format.red("Disabled"));
+	<Mekanism:PartTransmitter:6>.addTooltip(format.red("Disabled"));
+	<Mekanism:PartTransmitter:7>.addTooltip(format.red("Disabled"));
+	<Mekanism:PartTransmitter:9>.addTooltip(format.red("Disabled"));
+	<Mekanism:PartTransmitter:10>.addTooltip(format.red("Disabled"));
+	<Mekanism:PartTransmitter:11>.addTooltip(format.red("Disabled"));
+	<Mekanism:ObsidianTNT>.addTooltip(format.red("Disabled"));
+	<Mekanism:WalkieTalkie>.addTooltip(format.red("Use TeamSpeak instead!"));
+	<Mekanism:WalkieTalkie>.addTooltip(format.red("Server: ts.tekkify.com"));

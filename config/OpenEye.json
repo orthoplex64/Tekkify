@@ -23,7 +23,7 @@
             "value": false
         },
         "tags": {
-            "value": ["tekkify-dev-0.2.0"]
+            "value": [tekkify-dev]
         },
         "sentCrashReportsLimit": {
             "comment": "Maximum number of crash reports from single category sent per single run",

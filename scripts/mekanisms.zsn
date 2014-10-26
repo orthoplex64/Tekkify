@@ -1,0 +1,36 @@
+val atomic_disassembler = <Mekanism:AtomicDisassembler>;
+val atomic_core = <Mekanism:AtomicAlloy>;
+val diamond = <minecraft:diamond>;
+val discombobulation = <TabulaRasa:RasaItem0>;
+val electrolytic_core = <Mekanism:ElectrolyticCore>;
+val enderium_gear = <ThermalFoundation:material:140>;
+val energy_tablet = <Mekanism:EnergyTablet:*>;
+val enriched_alloy = <Mekanism:EnrichedAlloy>;
+val fluxed_electrum_blend = <RedstoneArsenal:material:0>;
+val iron_ingot = <minecraft:iron_ingot>;
+val obsidian_stick = <RandomThings:ingredient:1>;
+val teleportation_core = <Mekanism:TeleportationCore>;
+
+val digital_miner = <Mekanism:MachineBlock:4>;
+
+recipes.remove(digital_miner);
+
+recipes.addShaped(discombobulation, [
+	[teleportation_core, diamond, teleportation_core],
+	[atomic_core, enderium_gear, atomic_core],
+	[teleportation_core, fluxed_electrum_blend, teleportation_core]
+]);
+
+recipes.remove(atomic_disassembler);
+recipes.addShaped(atomic_disassembler, [
+	[atomic_core, energy_tablet, atomic_core],
+	[atomic_core, discombobulation, atomic_core],
+	[null, obsidian_stick, null]
+]);
+
+mods.mekanism.Infuser.removeRecipe(atomic_core);
+recipes.addShaped(atomic_core, [
+	[electrolytic_core, enriched_alloy, electrolytic_core],
+	[enriched_alloy, diamond, enriched_alloy],
+	[electrolytic_core, enriched_alloy, electrolytic_core]
+]);
