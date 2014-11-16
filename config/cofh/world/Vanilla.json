@@ -120,9 +120,9 @@
     },
     "emerald": {
         "template": "uniform",
-        "block": "diamond_ore",
+        "block": "emerald_ore",
         "material": "minecraft:stone",
-        "clusterSize": 3,
+        "clusterSize": 2,
         "numClusters": 1,
         "minHeight": 8,
         "maxHeight": 16,
