@@ -1,0 +1,428 @@
+ERROR: system: AutoSpawner is already defined in that package
+ERROR: system: AutoSpawner is already defined in that package
+INFO: Adding minetweaker command mfr
+INFO: Removing 1 recipes
+INFO: Removing 0 recipes
+INFO: Removing 1 recipes
+INFO: Adding recipe for Block Of Plastic
+INFO: Adding recipe for Block of Plastic
+ERROR: randomthings.zs:2: Could not resolve <RandomThings : ingredient : 1>
+INFO: Removing 1 recipes
+INFO: Removing 13 recipes
+INFO: Adding tooltip for <RefinedRelocation:relocator>: minetweaker.mc1710.formatting.FormattedMarkupString@57eada08
+INFO: Adding tooltip for <RefinedRelocation:relocatorModule:*>: minetweaker.mc1710.formatting.FormattedMarkupString@5458b2f7
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Adding tooltip for <cfm:ItemComputer>: minetweaker.mc1710.formatting.FormattedMarkupString@6fd3076b
+INFO: Adding tooltip for <cfm:ItemPrinter>: minetweaker.mc1710.formatting.FormattedMarkupString@78c3b28
+INFO: Adding tooltip for <cfm:ItemElectricFence>: minetweaker.mc1710.formatting.FormattedMarkupString@77fc2f7
+INFO: Adding tooltip for <JABBA:moverDiamond>: minetweaker.mc1710.formatting.FormattedString@4b1ed2e7
+ERROR: enderio.zs:2: Could not resolve <headcrumbs : head : 2>
+ERROR: enderio.zs:3: Could not resolve <headcrumbs : head : 2>
+ERROR: Error executing enderio.zs: null
+java.lang.NullPointerException
+	at minetweaker.mc1710.recipes.RecipeConverter.getIngredientType(RecipeConverter.java:38)
+	at minetweaker.mc1710.recipes.RecipeConverter.getRecipeType(RecipeConverter.java:51)
+	at minetweaker.mc1710.recipes.RecipeConverter.convert(RecipeConverter.java:58)
+	at minetweaker.mc1710.recipes.MCRecipeManager.addShapeless(MCRecipeManager.java:118)
+	at Enderio.__script__(enderio.zs:2)
+	at __ZenMain__.run(enderio.zs)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:624)
+	at minetweaker.mc1710.network.MineTweakerLoadScriptsHandler.onMessage(MineTweakerLoadScriptsHandler.java:28)
+	at minetweaker.mc1710.network.MineTweakerLoadScriptsHandler.onMessage(MineTweakerLoadScriptsHandler.java:21)
+	at cpw.mods.fml.common.network.simpleimpl.SimpleChannelHandlerWrapper.channelRead0(SimpleChannelHandlerWrapper.java:37)
+	at cpw.mods.fml.common.network.simpleimpl.SimpleChannelHandlerWrapper.channelRead0(SimpleChannelHandlerWrapper.java:17)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:98)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:101)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:101)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:785)
+	at io.netty.channel.embedded.EmbeddedChannel.writeInbound(EmbeddedChannel.java:169)
+	at cpw.mods.fml.common.network.internal.FMLProxyPacket.func_148833_a(FMLProxyPacket.java:77)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212)
+	at net.minecraft.client.multiplayer.GuiConnecting.func_73876_c(SourceFile:78)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1650)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:962)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:887)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+INFO: Removing 1 recipes
+INFO: Adding tooltip for <OpenComputers:item:62>: minetweaker.mc1710.formatting.FormattedMarkupString@792f8b7
+INFO: Translating item.extratic.bucket.filled.fairy.molten.name to Molten Fairy Bucket
+INFO: Translating item.extratic.bucket.name to Molten Refined Glowstone Bucket
+INFO: Translating item.extratic.bucket.name to Molten Osmium Bucket
+INFO: Translating item.extratic.bucket.filled.pokefennium.molten.name to Molten Pokefennium Bucket
+INFO: Setting localization for the key: fluid.fairy.molten to Molten Fairy
+INFO: Setting localization for the key: fluid.refined.glowstone.molten to Molten Refined Glowstone
+INFO: Setting localization for the key: fluid.osmium.molten to Molten Osmium
+INFO: Setting localization for the key: fluid.pokefennium.molten to Molten Pokefennium
+INFO: Setting localization for the key: material.refinedglowstone to Refined Glowstone
+INFO: Setting localization for the key: material.certusquartz to Certus Quartz
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Adding tooltip for <chisel:cloudinabottle>: minetweaker.mc1710.formatting.FormattedMarkupString@2ae202d8
+INFO: Adding tooltip for <chisel:ballomoss>: minetweaker.mc1710.formatting.FormattedMarkupString@5c28c8e6
+INFO: Removing 1 recipes
+INFO: Removing 3 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Adding tooltip for <MineFactoryReloaded:rocketlauncher>: minetweaker.mc1710.formatting.FormattedMarkupString@8af8b1a
+INFO: Adding tooltip for <MineFactoryReloaded:rocket:*>: minetweaker.mc1710.formatting.FormattedMarkupString@3cd55c6a
+INFO: Adding tooltip for <MineFactoryReloaded:needlegun.ammo.fire>: minetweaker.mc1710.formatting.FormattedMarkupString@5ba65259
+INFO: Adding tooltip for <MineFactoryReloaded:needlegun.ammo.anvil>: minetweaker.mc1710.formatting.FormattedMarkupString@4688011
+INFO: Adding tooltip for <MineFactoryReloaded:needlegun.ammo.lava>: minetweaker.mc1710.formatting.FormattedMarkupString@68afde59
+INFO: Adding tooltip for <MineFactoryReloaded:needlegun.ammo.sewage>: minetweaker.mc1710.formatting.FormattedMarkupString@722edac0
+INFO: Adding tooltip for <MineFactoryReloaded:needlegun.ammo.sludge>: minetweaker.mc1710.formatting.FormattedMarkupString@621badd0
+INFO: Adding tooltip for <MineFactoryReloaded:fishingrod>: minetweaker.mc1710.formatting.FormattedMarkupString@7306502
+INFO: Adding tooltip for <MineFactoryReloaded:portaspawner>: minetweaker.mc1710.formatting.FormattedMarkupString@7a3769fd
+INFO: Adding tooltip for <MineFactoryReloaded:cable.redstone:2>: minetweaker.mc1710.formatting.FormattedMarkupString@4c0f9fba
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 0 recipes
+INFO: Removing 1 recipes
+INFO: Removing Iron Oreberry from ore dictionary entry nuggetIron
+INFO: Removing Gold Oreberry from ore dictionary entry nuggetGold
+INFO: Removing Copper Oreberry from ore dictionary entry nuggetCopper
+INFO: Removing Tin Oreberry from ore dictionary entry nuggetTin
+INFO: Removing Aluminum Oreberry from ore dictionary entry nuggetAluminum
+INFO: Removing Aluminum Oreberry from ore dictionary entry nuggetAluminium
+INFO: Adding tooltip for <TConstruct:Redstone.Landmine>: minetweaker.mc1710.formatting.FormattedMarkupString@50884d09
+INFO: Adding tooltip for <TConstruct:Redstone.Landmine:1>: minetweaker.mc1710.formatting.FormattedMarkupString@2479b32d
+INFO: Adding tooltip for <TConstruct:Redstone.Landmine:2>: minetweaker.mc1710.formatting.FormattedMarkupString@31e26210
+INFO: Adding tooltip for <TConstruct:Redstone.Landmine:3>: minetweaker.mc1710.formatting.FormattedMarkupString@5942206
+INFO: Adding tooltip for <TConstruct:explosive.slime>: minetweaker.mc1710.formatting.FormattedMarkupString@4045bac6
+INFO: Adding tooltip for <TConstruct:explosive.slime:1>: minetweaker.mc1710.formatting.FormattedMarkupString@21e93e21
+INFO: Adding tooltip for <TConstruct:explosive.slime:2>: minetweaker.mc1710.formatting.FormattedMarkupString@57edf9eb
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Adding recipe for Ender Generator
+INFO: Adding recipe for Culinary Generator
+INFO: Adding recipe for Pink Generator
+INFO: Adding recipe for Drum
+INFO: Adding recipe for Bedrockium Drum
+INFO: Adding tooltip for <ExtraUtilities:nodeUpgrade:5>: minetweaker.mc1710.formatting.FormattedMarkupString@d855061
+INFO: Adding tooltip for <ExtraUtilities:nodeUpgrade:6>: minetweaker.mc1710.formatting.FormattedMarkupString@2b601736
+INFO: Adding tooltip for <ExtraUtilities:generator>: minetweaker.mc1710.formatting.FormattedMarkupString@3193f079
+INFO: Adding tooltip for <ExtraUtilities:generator.8>: minetweaker.mc1710.formatting.FormattedMarkupString@6790b15c
+INFO: Adding tooltip for <ExtraUtilities:generator.64>: minetweaker.mc1710.formatting.FormattedMarkupString@4c6c4422
+INFO: Adding tooltip for <ExtraUtilities:generator.8:7>: minetweaker.mc1710.formatting.FormattedMarkupString@57ed3b60
+INFO: Adding tooltip for <ExtraUtilities:generator.64:7>: minetweaker.mc1710.formatting.FormattedMarkupString@17d548b9
+INFO: Removing 33 recipes
+INFO: Adding recipe for Ender Chest
+INFO: Adding recipe for Ender Tank
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Adding recipe for Autonomous Activator
+INFO: Adding tooltip for <ThermalExpansion:florb:*>: minetweaker.mc1710.formatting.FormattedString@74e66cc2
+INFO: Adding tooltip for <ThermalExpansion:igniter>: minetweaker.mc1710.formatting.FormattedString@43ee7083
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Adding recipe for Item Canister
+INFO: Removing recipe for Item Canister
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Removing tooltip for <ThermalExpansion:igniter>: minetweaker.mc1710.formatting.FormattedString@43ee7083
+INFO: Removing tooltip for <ThermalExpansion:florb:*>: minetweaker.mc1710.formatting.FormattedString@74e66cc2
+INFO: Removing recipe for Autonomous Activator
+INFO: Restoring 2 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 2 recipes
+INFO: Restoring 1 recipes
+INFO: Removing recipe for Ender Tank
+INFO: Removing recipe for Ender Chest
+INFO: Restoring 33 recipes
+INFO: Removing tooltip for <ExtraUtilities:generator.64:7>: minetweaker.mc1710.formatting.FormattedMarkupString@17d548b9
+INFO: Removing tooltip for <ExtraUtilities:generator.8:7>: minetweaker.mc1710.formatting.FormattedMarkupString@57ed3b60
+INFO: Removing tooltip for <ExtraUtilities:generator.64>: minetweaker.mc1710.formatting.FormattedMarkupString@4c6c4422
+INFO: Removing tooltip for <ExtraUtilities:generator.8>: minetweaker.mc1710.formatting.FormattedMarkupString@6790b15c
+INFO: Removing tooltip for <ExtraUtilities:generator>: minetweaker.mc1710.formatting.FormattedMarkupString@3193f079
+INFO: Removing tooltip for <ExtraUtilities:nodeUpgrade:6>: minetweaker.mc1710.formatting.FormattedMarkupString@2b601736
+INFO: Removing tooltip for <ExtraUtilities:nodeUpgrade:5>: minetweaker.mc1710.formatting.FormattedMarkupString@d855061
+INFO: Removing recipe for Bedrockium Drum
+INFO: Removing recipe for Drum
+INFO: Removing recipe for Pink Generator
+INFO: Removing recipe for Culinary Generator
+INFO: Removing recipe for Ender Generator
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Removing tooltip for <TConstruct:explosive.slime:2>: minetweaker.mc1710.formatting.FormattedMarkupString@57edf9eb
+INFO: Removing tooltip for <TConstruct:explosive.slime:1>: minetweaker.mc1710.formatting.FormattedMarkupString@21e93e21
+INFO: Removing tooltip for <TConstruct:explosive.slime>: minetweaker.mc1710.formatting.FormattedMarkupString@4045bac6
+INFO: Removing tooltip for <TConstruct:Redstone.Landmine:3>: minetweaker.mc1710.formatting.FormattedMarkupString@5942206
+INFO: Removing tooltip for <TConstruct:Redstone.Landmine:2>: minetweaker.mc1710.formatting.FormattedMarkupString@31e26210
+INFO: Removing tooltip for <TConstruct:Redstone.Landmine:1>: minetweaker.mc1710.formatting.FormattedMarkupString@2479b32d
+INFO: Removing tooltip for <TConstruct:Redstone.Landmine>: minetweaker.mc1710.formatting.FormattedMarkupString@50884d09
+INFO: Restoring Aluminum Oreberry to ore dictionary entry nuggetAluminium
+INFO: Restoring Aluminum Oreberry to ore dictionary entry nuggetAluminum
+INFO: Restoring Tin Oreberry to ore dictionary entry nuggetTin
+INFO: Restoring Copper Oreberry to ore dictionary entry nuggetCopper
+INFO: Restoring Gold Oreberry to ore dictionary entry nuggetGold
+INFO: Restoring Iron Oreberry to ore dictionary entry nuggetIron
+INFO: Restoring 1 recipes
+INFO: Restoring 0 recipes
+INFO: Restoring 2 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Removing tooltip for <MineFactoryReloaded:cable.redstone:2>: minetweaker.mc1710.formatting.FormattedMarkupString@4c0f9fba
+INFO: Removing tooltip for <MineFactoryReloaded:portaspawner>: minetweaker.mc1710.formatting.FormattedMarkupString@7a3769fd
+INFO: Removing tooltip for <MineFactoryReloaded:fishingrod>: minetweaker.mc1710.formatting.FormattedMarkupString@7306502
+INFO: Removing tooltip for <MineFactoryReloaded:needlegun.ammo.sludge>: minetweaker.mc1710.formatting.FormattedMarkupString@621badd0
+INFO: Removing tooltip for <MineFactoryReloaded:needlegun.ammo.sewage>: minetweaker.mc1710.formatting.FormattedMarkupString@722edac0
+INFO: Removing tooltip for <MineFactoryReloaded:needlegun.ammo.lava>: minetweaker.mc1710.formatting.FormattedMarkupString@68afde59
+INFO: Removing tooltip for <MineFactoryReloaded:needlegun.ammo.anvil>: minetweaker.mc1710.formatting.FormattedMarkupString@4688011
+INFO: Removing tooltip for <MineFactoryReloaded:needlegun.ammo.fire>: minetweaker.mc1710.formatting.FormattedMarkupString@5ba65259
+INFO: Removing tooltip for <MineFactoryReloaded:rocket:*>: minetweaker.mc1710.formatting.FormattedMarkupString@3cd55c6a
+INFO: Removing tooltip for <MineFactoryReloaded:rocketlauncher>: minetweaker.mc1710.formatting.FormattedMarkupString@8af8b1a
+INFO: Restoring 2 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 2 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 3 recipes
+INFO: Restoring 1 recipes
+INFO: Removing tooltip for <chisel:ballomoss>: minetweaker.mc1710.formatting.FormattedMarkupString@5c28c8e6
+INFO: Removing tooltip for <chisel:cloudinabottle>: minetweaker.mc1710.formatting.FormattedMarkupString@2ae202d8
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Setting localization for the key: material.certusquartz to null
+INFO: Setting localization for the key: material.refinedglowstone to null
+INFO: Setting localization for the key: fluid.pokefennium.molten to null
+INFO: Setting localization for the key: fluid.osmium.molten to null
+INFO: Setting localization for the key: fluid.refined.glowstone.molten to null
+INFO: Setting localization for the key: fluid.fairy.molten to null
+INFO: Reverting item.extratic.bucket.filled.pokefennium.molten.name to item.extratic.bucket.filled.pokefennium.molten.name
+INFO: Reverting item.extratic.bucket.name to Molten Refined Glowstone Bucket
+INFO: Reverting item.extratic.bucket.name to item.extratic.bucket.name
+INFO: Reverting item.extratic.bucket.filled.fairy.molten.name to item.extratic.bucket.filled.fairy.molten.name
+INFO: Removing tooltip for <OpenComputers:item:62>: minetweaker.mc1710.formatting.FormattedMarkupString@792f8b7
+INFO: Restoring 1 recipes
+INFO: Removing tooltip for <JABBA:moverDiamond>: minetweaker.mc1710.formatting.FormattedString@4b1ed2e7
+INFO: Removing tooltip for <cfm:ItemElectricFence>: minetweaker.mc1710.formatting.FormattedMarkupString@77fc2f7
+INFO: Removing tooltip for <cfm:ItemPrinter>: minetweaker.mc1710.formatting.FormattedMarkupString@78c3b28
+INFO: Removing tooltip for <cfm:ItemComputer>: minetweaker.mc1710.formatting.FormattedMarkupString@6fd3076b
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Removing tooltip for <RefinedRelocation:relocatorModule:*>: minetweaker.mc1710.formatting.FormattedMarkupString@5458b2f7
+INFO: Removing tooltip for <RefinedRelocation:relocator>: minetweaker.mc1710.formatting.FormattedMarkupString@57eada08
+INFO: Restoring 13 recipes
+INFO: Restoring 1 recipes
+INFO: Removing recipe for Block of Plastic
+INFO: Removing recipe for Block Of Plastic
+INFO: Restoring 1 recipes
+INFO: Restoring 0 recipes
+INFO: Restoring 1 recipes
+INFO: Removing minetweaker command mfr
+INFO: Adding minetweaker command mfr
+INFO: Removing 1 recipes
+INFO: Removing 0 recipes
+INFO: Removing 1 recipes
+INFO: Adding recipe for Block Of Plastic
+INFO: Adding recipe for Block of Plastic
+ERROR: randomthings.zs:2: Could not resolve <RandomThings : ingredient : 1>
+INFO: Removing 1 recipes
+INFO: Removing 13 recipes
+INFO: Adding tooltip for <RefinedRelocation:relocator>: minetweaker.mc1710.formatting.FormattedMarkupString@459a46bf
+INFO: Adding tooltip for <RefinedRelocation:relocatorModule:*>: minetweaker.mc1710.formatting.FormattedMarkupString@139ac94c
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Adding tooltip for <cfm:ItemComputer>: minetweaker.mc1710.formatting.FormattedMarkupString@af2791b
+INFO: Adding tooltip for <cfm:ItemPrinter>: minetweaker.mc1710.formatting.FormattedMarkupString@34ece13a
+INFO: Adding tooltip for <cfm:ItemElectricFence>: minetweaker.mc1710.formatting.FormattedMarkupString@2bb6c1fb
+INFO: Adding tooltip for <JABBA:moverDiamond>: minetweaker.mc1710.formatting.FormattedString@516b9bcf
+ERROR: enderio.zs:2: Could not resolve <headcrumbs : head : 2>
+ERROR: enderio.zs:3: Could not resolve <headcrumbs : head : 2>
+ERROR: Error executing enderio.zs: null
+java.lang.NullPointerException
+	at minetweaker.mc1710.recipes.RecipeConverter.getIngredientType(RecipeConverter.java:38)
+	at minetweaker.mc1710.recipes.RecipeConverter.getRecipeType(RecipeConverter.java:51)
+	at minetweaker.mc1710.recipes.RecipeConverter.convert(RecipeConverter.java:58)
+	at minetweaker.mc1710.recipes.MCRecipeManager.addShapeless(MCRecipeManager.java:118)
+	at Enderio.__script__(enderio.zs:2)
+	at __ZenMain__.run(enderio.zs)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:624)
+	at minetweaker.mc1710.network.MineTweakerLoadScriptsHandler.onMessage(MineTweakerLoadScriptsHandler.java:28)
+	at minetweaker.mc1710.network.MineTweakerLoadScriptsHandler.onMessage(MineTweakerLoadScriptsHandler.java:21)
+	at cpw.mods.fml.common.network.simpleimpl.SimpleChannelHandlerWrapper.channelRead0(SimpleChannelHandlerWrapper.java:37)
+	at cpw.mods.fml.common.network.simpleimpl.SimpleChannelHandlerWrapper.channelRead0(SimpleChannelHandlerWrapper.java:17)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:98)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:101)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:101)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:785)
+	at io.netty.channel.embedded.EmbeddedChannel.writeInbound(EmbeddedChannel.java:169)
+	at cpw.mods.fml.common.network.internal.FMLProxyPacket.func_148833_a(FMLProxyPacket.java:77)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.func_78765_e(PlayerControllerMP.java:273)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1591)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:962)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:887)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+INFO: Removing 1 recipes
+INFO: Adding tooltip for <OpenComputers:item:62>: minetweaker.mc1710.formatting.FormattedMarkupString@18378ba
+INFO: Translating item.extratic.bucket.filled.fairy.molten.name to Molten Fairy Bucket
+INFO: Translating item.extratic.bucket.name to Molten Refined Glowstone Bucket
+INFO: Translating item.extratic.bucket.name to Molten Osmium Bucket
+INFO: Translating item.extratic.bucket.filled.pokefennium.molten.name to Molten Pokefennium Bucket
+INFO: Setting localization for the key: fluid.fairy.molten to Molten Fairy
+INFO: Setting localization for the key: fluid.refined.glowstone.molten to Molten Refined Glowstone
+INFO: Setting localization for the key: fluid.osmium.molten to Molten Osmium
+INFO: Setting localization for the key: fluid.pokefennium.molten to Molten Pokefennium
+INFO: Setting localization for the key: material.refinedglowstone to Refined Glowstone
+INFO: Setting localization for the key: material.certusquartz to Certus Quartz
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Adding tooltip for <chisel:cloudinabottle>: minetweaker.mc1710.formatting.FormattedMarkupString@7bab6ae4
+INFO: Adding tooltip for <chisel:ballomoss>: minetweaker.mc1710.formatting.FormattedMarkupString@32f6de2a
+INFO: Removing 1 recipes
+INFO: Removing 3 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Adding tooltip for <MineFactoryReloaded:rocketlauncher>: minetweaker.mc1710.formatting.FormattedMarkupString@2cd39152
+INFO: Adding tooltip for <MineFactoryReloaded:rocket:*>: minetweaker.mc1710.formatting.FormattedMarkupString@75e9b57b
+INFO: Adding tooltip for <MineFactoryReloaded:needlegun.ammo.fire>: minetweaker.mc1710.formatting.FormattedMarkupString@4289dab7
+INFO: Adding tooltip for <MineFactoryReloaded:needlegun.ammo.anvil>: minetweaker.mc1710.formatting.FormattedMarkupString@68764681
+INFO: Adding tooltip for <MineFactoryReloaded:needlegun.ammo.lava>: minetweaker.mc1710.formatting.FormattedMarkupString@2d0ef4bb
+INFO: Adding tooltip for <MineFactoryReloaded:needlegun.ammo.sewage>: minetweaker.mc1710.formatting.FormattedMarkupString@30e53819
+INFO: Adding tooltip for <MineFactoryReloaded:needlegun.ammo.sludge>: minetweaker.mc1710.formatting.FormattedMarkupString@18c60a63
+INFO: Adding tooltip for <MineFactoryReloaded:fishingrod>: minetweaker.mc1710.formatting.FormattedMarkupString@71d3f649
+INFO: Adding tooltip for <MineFactoryReloaded:portaspawner>: minetweaker.mc1710.formatting.FormattedMarkupString@12ce6d01
+INFO: Adding tooltip for <MineFactoryReloaded:cable.redstone:2>: minetweaker.mc1710.formatting.FormattedMarkupString@2e56664c
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 0 recipes
+INFO: Removing 1 recipes
+INFO: Removing Iron Oreberry from ore dictionary entry nuggetIron
+INFO: Removing Gold Oreberry from ore dictionary entry nuggetGold
+INFO: Removing Copper Oreberry from ore dictionary entry nuggetCopper
+INFO: Removing Tin Oreberry from ore dictionary entry nuggetTin
+INFO: Removing Aluminum Oreberry from ore dictionary entry nuggetAluminum
+INFO: Removing Aluminum Oreberry from ore dictionary entry nuggetAluminium
+INFO: Adding tooltip for <TConstruct:Redstone.Landmine>: minetweaker.mc1710.formatting.FormattedMarkupString@4f4e8801
+INFO: Adding tooltip for <TConstruct:Redstone.Landmine:1>: minetweaker.mc1710.formatting.FormattedMarkupString@2cc32254
+INFO: Adding tooltip for <TConstruct:Redstone.Landmine:2>: minetweaker.mc1710.formatting.FormattedMarkupString@3f02cfc1
+INFO: Adding tooltip for <TConstruct:Redstone.Landmine:3>: minetweaker.mc1710.formatting.FormattedMarkupString@5195a838
+INFO: Adding tooltip for <TConstruct:explosive.slime>: minetweaker.mc1710.formatting.FormattedMarkupString@38571e60
+INFO: Adding tooltip for <TConstruct:explosive.slime:1>: minetweaker.mc1710.formatting.FormattedMarkupString@5f8b4d85
+INFO: Adding tooltip for <TConstruct:explosive.slime:2>: minetweaker.mc1710.formatting.FormattedMarkupString@328e87c4
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Adding recipe for Ender Generator
+INFO: Adding recipe for Culinary Generator
+INFO: Adding recipe for Pink Generator
+INFO: Adding recipe for Drum
+INFO: Adding recipe for Bedrockium Drum
+INFO: Adding tooltip for <ExtraUtilities:nodeUpgrade:5>: minetweaker.mc1710.formatting.FormattedMarkupString@69735a7
+INFO: Adding tooltip for <ExtraUtilities:nodeUpgrade:6>: minetweaker.mc1710.formatting.FormattedMarkupString@31436a52
+INFO: Adding tooltip for <ExtraUtilities:generator>: minetweaker.mc1710.formatting.FormattedMarkupString@40f946c2
+INFO: Adding tooltip for <ExtraUtilities:generator.8>: minetweaker.mc1710.formatting.FormattedMarkupString@2d948be1
+INFO: Adding tooltip for <ExtraUtilities:generator.64>: minetweaker.mc1710.formatting.FormattedMarkupString@736b7827
+INFO: Adding tooltip for <ExtraUtilities:generator.8:7>: minetweaker.mc1710.formatting.FormattedMarkupString@149d83a4
+INFO: Adding tooltip for <ExtraUtilities:generator.64:7>: minetweaker.mc1710.formatting.FormattedMarkupString@712d8e8e
+INFO: Removing 33 recipes
+INFO: Adding recipe for Ender Chest
+INFO: Adding recipe for Ender Tank
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Adding recipe for Autonomous Activator
+INFO: Adding tooltip for <ThermalExpansion:florb:*>: minetweaker.mc1710.formatting.FormattedString@727b0279
+INFO: Adding tooltip for <ThermalExpansion:igniter>: minetweaker.mc1710.formatting.FormattedString@69df90a6
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Adding recipe for Item Canister

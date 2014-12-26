@@ -1,0 +1,17 @@
+#Sat Dec 06 12:02:58 GMT 2014
+TexMinFilB=0
+shadowResMul=1.0
+tweakBlockDamage=false
+TexMagFilB=0
+handDepthMul=0.0625
+oldLighting=false
+shaderPack=(none)
+TexMinFilS=0
+renderResMul=1.0
+TexMagFilS=0
+TexMinFilN=0
+shadowClipFrustrum=true
+TexMagFilN=0
+cloudShadow=false
+normalMapEnabled=true
+specularMapEnabled=true
