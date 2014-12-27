@@ -9,4 +9,5 @@
 	recipes.addShaped(<ThermalExpansion:Device:2>, [[<ore:ingotSteel>, <minecraft:chest>, <ore:ingotSteel>], [<ore:gearInvar>, <minecraft:piston>, <ore:gearInvar>], [<ore:ingotSteel>, <ThermalExpansion:material:0>, <ore:ingotSteel>]]);
 
 # Tooltips
-	<ThermalExpansion:igniter>.addTooltip("\u00A7cDisabled");
+	<ThermalExpansion:igniter>.addTooltip(format.red("Disabled"));
+	<ThermalExpansion:florb:*>.addTooltip(format.red("Disabled"));

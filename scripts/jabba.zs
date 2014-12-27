@@ -1,2 +1,2 @@
 # Tooltips
-	<JABBA:moverDiamond>.addTooltip("\u00A7cDisabled");
+	<JABBA:moverDiamond>.addTooltip(format.red("Disabled"));

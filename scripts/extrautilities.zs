@@ -1,7 +1,5 @@
 # Crafting
 	# Disabled
-	recipes.remove(<ExtraUtilities:nodeUpgrade:5>); # Ender Transmitter
-	recipes.remove(<ExtraUtilities:nodeUpgrade:6>); # Ender Receiver
 	recipes.remove(<ExtraUtilities:generator:0>); # Survivalist Generator
 	recipes.remove(<ExtraUtilities:generator.8:0>); # Survivalist Generator
 	recipes.remove(<ExtraUtilities:generator.64:0>); # Survivalist Generator
@@ -23,8 +21,6 @@
 	recipes.addShaped(<ExtraUtilities:drum:1>, [[<ExtraUtilities:bedrockiumIngot>, <ThermalExpansion:Tank:4>, <ExtraUtilities:bedrockiumIngot>], [<ExtraUtilities:bedrockiumIngot>, <ThermalExpansion:Frame:8>, <ExtraUtilities:bedrockiumIngot>], [<ExtraUtilities:bedrockiumIngot>, <ThermalExpansion:Tank:4>, <ExtraUtilities:bedrockiumIngot>]]);
 
 # Tooltips
-	<ExtraUtilities:nodeUpgrade:5>.addTooltip(format.red("Disabled"));
-	<ExtraUtilities:nodeUpgrade:6>.addTooltip(format.red("Disabled"));
 	<ExtraUtilities:generator:0>.addTooltip(format.red("Disabled"));
 	<ExtraUtilities:generator.8:0>.addTooltip(format.red("Disabled"));
 	<ExtraUtilities:generator.64:0>.addTooltip(format.red("Disabled"));
