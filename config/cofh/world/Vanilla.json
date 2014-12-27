@@ -54,7 +54,7 @@
         "template": "normal",
         "block": "iron_ore",
         "material": "minecraft:stone",
-        "clusterSize": 8,
+        "clusterSize": 10,
         "numClusters": 10,
         "meanHeight": 48,
         "maxVariance": 16,
